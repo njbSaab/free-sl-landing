@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free slots</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+    />
+    <!-- splide style -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <!-- splide -->
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+
+    <!-- Vue.js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  </head>
+  <body data-theme="light">
+    <div id="app">
+      <section class="banner">
+        <div class="video">
+          <video
+            frameborder="0"
+            id="videox"
+            loop=""
+            autoplay=""
+            muted=""
+            playsinline=""
+          >
+            <source src="./assets/mp4/desktop-v.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <!-- title-group -->
+        <div class="text">
+          <h1 class="h1-title">
+            PLAY SLOTOMANIA
+            <span class="title-text">THE #1 FREE SLOTS GAME</span>
+          </h1>
+          <a
+            href=""
+            target=""
+            class="ga-push play-now-btn hero-button"
+            data-gtm="play_now"
+          >
+            <img
+              width="300"
+              height="74"
+              src="https://www.slotomania.com/wp-content/uploads/2022/06/Play_now_Button-2.png"
+              class="attachment-medium size-medium"
+              alt='Green "Play Now" button'
+              decoding="async"
+              sizes="(max-width: 300px) 100vw, 300px"
+            />
+            <span>Play Now</span>
+          </a>
+        </div>
+
+        <!-- cloud -->
+        <div class="clouds">
+          <picture>
+            <!-- media="(min-width:1024px)" -->
+            <source
+              srcset="./images/banner/cloud.png"
+            />
+            <img
+              class="lazy entered loaded"
+              alt="slotomania-img"
+              src="/wp-content/themes/master-theme/img/HOME-PAGE/ABOUT-SLOTOMANIA/top_clouds_mobile.png"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container flex items-center">
+          <div class="img img-parallax-about">
+            <picture>
+              <img
+                width="920"
+                height="1145"
+                src="./images/about/hero.png"
+                class="attachment-large-size size-large-size"
+                alt="Lucy on a wild ride"
+                decoding="async"
+                fetchpriority="high"
+                sizes="(max-width: 920px) 100vw, 920px"
+              />
+            </picture>
+          </div>
+
+          <div class="content text-parallax-top flex flex-col gap-[14px]">
+            <h2 class="h2-title about-anim-title color-regular">PLAY FREE SLOTS</h2>
+            <p class="sub-title-text h2-title-anim">
+              Slotomania, the world’s #1 free slots game, was developed in 2011
+              by Playtika®
+            </p>
+            <p class="text text-anim-r">
+              Slotomania offers 170+ free online slot games, various fun
+              features, mini-games, free bonuses, and more online or
+              free-to-download apps. Join millions of players and enjoy a
+              fantastic experience on the web or any device; from PCs to tablets
+              and cell phones (on Google Play, Apple iPhone or iPad App Store,
+              or Facebook Gaming).
+              <br />
+              <br />
+              Get 1 million free Coins as a Welcome Bonus, just for downloading
+              the game!
+              <br />
+              Although it may replicate Vegas-style slot machines, there are no
+              cash prizes. Slotomania’s focus is on exhilarating gameplay and
+              fostering a happy global community.
+              <br />
+              <br />
+              Slotomania is a pioneer in the slot industry - with over 11 years
+              of refining the game, it is a pioneer in the slot game industry.
+              Many of its competitors have adopted similar features and
+              techniques to Slotomania, such as collectibles and group play.
+            </p>
+          </div>
+        </div>
+
+        <div class="container why" data-animation-trigger="why">
+          <h2
+            class="h2-title color-regular flex items-center justify-center"
+          >
+            why Slotomania?
+          </h2>
+          <div class="content">
+            <ul class="why-list flex items-center gap-[30px] list-anim">
+              <li>
+                <div class="flex flex-col items-center why-list-item">
+                  <img
+                    class="img-parallax"
+                    src="./images/why-list/1.svg"
+                    alt=""
+                  />
+                  <h6>over 170</h6>
+                  <p class="why-text-anim">free-to-play slots</p>
+                </div>
+              </li>
+              <li>
+                <div class="flex flex-col items-center why-list-item">
+                  <img
+                    class="img-parallax"
+                    src="./images/why-list/2.svg"
+                    alt=""
+                  />
+                  <h6>world`s #1 free</h6>
+                  <p class="why-text-anim">SOCIAL SLOT GAME</p>
+                </div>
+              </li>
+              <li>
+                <div class="flex flex-col items-center why-list-item">
+                  <img
+                    class="img-parallax"
+                    src="./images/why-list/3.svg"
+                    alt=""
+                  />
+                  <h6>biggest online</h6>
+                  <p class="why-text-anim">SLOT COMMUNITY</p>
+                </div>
+              </li>
+              <li>
+                <div class="flex flex-col items-center why-list-item">
+                  <img
+                    class="img-parallax"
+                    src="./images/why-list/4.svg"
+                    alt=""
+                  />
+                  <h6>new excitement</h6>
+                  <p class="why-text-anim">EVERY DAY</p>
+                </div>
+              </li>
+              <li>
+                <div class="flex flex-col items-center why-list-item">
+                  <img
+                    class="img-parallax"
+                    src="./images/why-list/5.svg"
+                    alt=""
+                  />
+                  <h6>1 million coins</h6>
+                  <p class="why-text-anim">WELCOME BONUS</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="banner-about relative">
+          <div class="slots img-parallax-bottom">
+            <picture>
+              <img
+                src="./images/about/slots.png"
+                alt="slots"
+                class="img-parallax"
+              />
+            </picture>
+          </div>
+          <div class="person img-parallax-top-min">
+            <picture>
+              <img src="images/about/hero2.png" alt="" />
+            </picture>
+          </div>
+          <div class="footer-dark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              viewBox="0 0 1930 174"
+              fill="none"
+            >
+              <path
+                d="M1929.43 99.2285V173.314H3.5L0 0.272556C6.15103 7.79377 11.0508 16.2564 14.511 25.3356C22.838 19.7356 33.436 16.4786 44.865 15.4676C77.141 12.6106 117.402 28.6596 123.687 52.8816C126.559 63.9406 119.203 61.1016 137.808 59.4546C172.165 56.4166 203.37 65.4486 230.608 78.6116C245.754 86.0857 260.319 94.6823 274.182 104.33C289.082 92.6976 310.641 86.1076 333.689 84.0686C372.75 80.6156 408.458 92.6746 444.016 101.853C449.17 103.186 454.334 104.497 459.508 105.785C496.928 115.127 544.185 95.3446 582.365 102.642C584.917 103.133 587.459 103.612 590.011 104.091C592.733 104.593 595.455 105.098 598.177 105.604C601.08 106.137 603.985 106.665 606.894 107.187C609.994 107.748 613.109 108.297 616.211 108.84C619.524 109.424 622.84 109.998 626.159 110.563C627.87 110.855 629.592 111.147 631.303 111.433C634.966 112.052 638.629 112.66 642.292 113.256C642.295 113.257 642.299 113.258 642.302 113.258C642.305 113.258 642.309 113.257 642.312 113.256C644.324 113.589 646.345 113.91 648.357 114.238C652.41 114.892 656.464 115.532 660.517 116.16L666.802 117.124L673.758 118.176C678.381 118.865 683.012 119.543 687.649 120.209C691.362 120.746 695.075 121.27 698.788 121.781C702.501 122.291 706.218 122.798 709.937 123.3C711.798 123.551 713.66 123.798 715.521 124.042C721.106 124.775 726.697 125.492 732.294 126.192C734.085 126.42 735.877 126.642 737.668 126.858C739.61 127.098 741.561 127.331 743.503 127.565L747.456 128.038C748.847 128.202 750.238 128.371 751.639 128.529C757.624 129.23 763.612 129.91 769.603 130.568C773.426 130.988 777.249 131.399 781.072 131.801C783.033 132.011 785 132.215 786.972 132.414C788.693 132.595 790.425 132.77 792.156 132.94C792.827 133.01 793.497 133.08 794.168 133.14C796.049 133.333 797.941 133.52 799.823 133.701C807.369 134.443 814.922 135.152 822.481 135.828C954.726 147.67 1208.01 138.028 1275.06 142.143C1315.92 140.396 1357.26 140.776 1398.5 138.264C1409.91 137.564 1440.57 130.5 1451.12 130.5C1451.12 130.5 1456.6 138.264 1492.97 138.264C1517.73 138.264 1545.4 135.156 1569.12 133.736C1563.59 131.148 1556.93 131.796 1551.4 130.499C1583.38 120.151 1616.79 114.863 1650.41 114.824C1660.86 114.824 1661.51 114.684 1661.51 116.724C1661.51 123.857 1641.12 126.624 1687.32 126.624C1703.93 126.624 1786.95 121.407 1786.95 111.024L1929.43 99.2285Z"
+                fill="#041B31"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="social">
+        <div class="social-bg overflow-hidden">
+          <picture>
+            <img src="./images/social/bg.jpg" alt="freeslots-img" />
+          </picture>
+        </div>
+        <div class="container relative">
+          <div class="heading">
+            <h2 class="color-primary h2-title">SLOTOMANIA GOING SOCIAL</h2>
+            <p class="text color-primary text-anim-r">
+              Slotomania is much more than an entertaining game - it is also a
+              community that believes that a family that plays together, stays
+              together. With millions of fans on Slotomania’s official Facebook
+              page &amp; organic group, “SLOTOMANIA SUPERGROUP”, Slotomania’s
+              online community enjoys special announcements of new games,
+              features, and special activities, as well as likeminded players to
+              converse and engage with.
+            </p>
+          </div>
+          <ul class="socila-list-cards card-list-anim desktop">
+            <!-- Card -->
+            <li>
+              <div class="color-primary social-card">
+                <div class="img">
+                  <img
+                    class="lazy entered loaded"
+                    alt="A pig in a space suit holding a purple Facebook flag"
+                    src="./images/social/1.png"
+                  />
+                </div>
+
+                <div class="text">
+                  <div class="text-wrap">
+                    <p>OVER</p>
+                    <h3>13M</h3>
+                    <p>FANS ON FACEBOOK</p>
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      class="card-btn btn"
+                    >
+                      JOIN NOW
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="social-card color-primary">
+                <div class="img">
+                  <img
+                    class="lazy entered loaded"
+                    alt="Flying spaceship"
+                    data-ll-status="loaded"
+                    src="./images/social/2.png"
+                  />
+                </div>
+
+                <div class="text">
+                  <div class="text-wrap">
+                    <h3>+700k</h3>
+
+                    <p>MEMBERS IN THE BIGGEST ONLINE SLOT COMMUNITY</p>
+
+                    <a
+                      href="https://www.facebook.com/groups/286304708187534"
+                      target="_blank"
+                      class="card-btn btn"
+                    >
+                      Join Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="social-card color-primary">
+                <div class="img">
+                  <img
+                    class="lazy entered loaded"
+                    alt="Social Media space craft"
+                    src="./images/social/3.png"
+                  />
+                </div>
+
+                <div class="text">
+                  <div class="text-wrap">
+                    <h3>3</h3>
+                    <p>
+                      CHANNELS<br />
+                      ON YOUTUBE, FACEBOOK<br />
+                     INSTAGRAM <br />
+                      <br />
+                    </p>
+
+                    <div
+                      class="social-links-wrapper flex justify-center gap-[15px]"
+                    >
+                      <a href="https://www.facebook.com/slotomania"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="55"
+                          height="55"
+                          viewBox="0 0 55 55"
+                          fill="none"
+                        >
+                          <rect width="55" height="55" rx="27.5" fill="white" />
+                          <path
+                            d="M46.5377 18.3218C46.3117 17.4865 45.8708 16.7249 45.2589 16.113C44.647 15.5011 43.8855 15.0601 43.0501 14.834C39.992 14 27.6841 14 27.6841 14C27.6841 14 15.3755 14.0252 12.3174 14.8593C11.482 15.0854 10.7205 15.5263 10.1086 16.1383C9.49668 16.7503 9.05577 17.5118 8.82975 18.3472C7.90474 23.7809 7.54591 32.0606 8.85515 37.2769C9.08119 38.1123 9.52211 38.8738 10.134 39.4857C10.7459 40.0977 11.5074 40.5386 12.3428 40.7647C15.4009 41.5987 27.7091 41.5987 27.7091 41.5987C27.7091 41.5987 40.0172 41.5987 43.0752 40.7647C43.9106 40.5386 44.6721 40.0977 45.2841 39.4858C45.896 38.8738 46.3369 38.1123 46.563 37.2769C47.5386 31.8355 47.8393 23.5609 46.5377 18.3218Z"
+                            fill="#FF0000"
+                          />
+                          <path
+                            d="M23.7667 33.7137L33.977 27.7997L23.7667 21.8857V33.7137Z"
+                            fill="white"
+                          /></svg
+                      ></a>
+
+                      <a href="https://www.youtube.com/c/Slotomania_FreeSlots">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="55"
+                          height="55"
+                          viewBox="0 0 55 55"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_307_215)">
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="black"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="url(#paint0_radial_307_215)"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="black"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="url(#paint1_radial_307_215)"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="url(#paint2_radial_307_215)"
+                            />
+                            <path
+                              d="M27.5016 10C22.7489 10 22.1524 10.0208 20.2858 10.1057C18.4228 10.1911 17.151 10.486 16.0384 10.9187C14.8872 11.3657 13.9109 11.9637 12.9383 12.9366C11.9647 13.9095 11.3668 14.8858 10.9184 16.0364C10.4844 17.1494 10.1892 18.4216 10.1053 20.2838C10.0219 22.1505 10 22.7472 10 27.5C10 32.2528 10.021 32.8474 10.1057 34.714C10.1915 36.577 10.4863 37.8487 10.9187 38.9613C11.3661 40.1125 11.964 41.0888 12.937 42.0614C13.9095 43.0349 14.8858 43.6343 16.0361 44.0813C17.1496 44.514 18.4215 44.8089 20.2842 44.8943C22.1509 44.9792 22.747 45 27.4995 45C32.2526 45 32.8473 44.9792 34.7139 44.8943C36.5769 44.8089 37.85 44.514 38.9635 44.0813C40.1142 43.6343 41.0891 43.0349 42.0614 42.0614C43.0349 41.0888 43.6327 40.1125 44.0812 38.9619C44.5114 37.8487 44.8068 36.5766 44.8943 34.7143C44.9781 32.8478 45 32.2528 45 27.5C45 22.7472 44.9781 22.1508 44.8943 20.2841C44.8068 18.4211 44.5114 17.1496 44.0812 16.0369C43.6327 14.8858 43.0349 13.9095 42.0614 12.9366C41.088 11.9633 40.1145 11.3653 38.9625 10.9189C37.8469 10.486 36.5744 10.1909 34.7114 10.1057C32.8447 10.0208 32.2504 10 27.4961 10H27.5016ZM25.9317 13.1536C26.3977 13.1529 26.9176 13.1536 27.5016 13.1536C32.1742 13.1536 32.7279 13.1704 34.5731 13.2543C36.2794 13.3323 37.2055 13.6174 37.8224 13.857C38.6391 14.1741 39.2213 14.5533 39.8335 15.1659C40.446 15.7784 40.825 16.3617 41.143 17.1784C41.3826 17.7944 41.668 18.7205 41.7457 20.4267C41.8295 22.2716 41.8477 22.8256 41.8477 27.496C41.8477 32.1663 41.8295 32.7205 41.7457 34.5652C41.6677 36.2714 41.3826 37.1975 41.143 37.8137C40.8259 38.6304 40.446 39.2119 39.8335 39.8241C39.221 40.4366 38.6395 40.8156 37.8224 41.1329C37.2062 41.3735 36.2794 41.6579 34.5731 41.7359C32.7283 41.8198 32.1742 41.838 27.5016 41.838C22.8287 41.838 22.2748 41.8198 20.4302 41.7359C18.7239 41.6572 17.7978 41.3721 17.1804 41.1325C16.3639 40.8153 15.7804 40.4362 15.1679 39.8237C14.5554 39.2112 14.1764 38.6294 13.8584 37.8123C13.6188 37.1961 13.3334 36.27 13.2557 34.5638C13.1719 32.719 13.1551 32.1649 13.1551 27.4916C13.1551 22.8183 13.1719 22.2672 13.2557 20.4224C13.3338 18.7161 13.6188 17.79 13.8584 17.1732C14.1757 16.3565 14.5554 15.7732 15.1681 15.1607C15.7808 14.5482 16.3639 14.169 17.1806 13.8512C17.7975 13.6106 18.7239 13.3262 20.4302 13.2478C22.0445 13.1748 22.6702 13.1529 25.9317 13.1493V13.1536ZM36.8431 16.0593C35.6837 16.0593 34.7431 16.9991 34.7431 18.1586C34.7431 19.318 35.6837 20.2586 36.8431 20.2586C38.0025 20.2586 38.9431 19.318 38.9431 18.1586C38.9431 16.9992 38.0025 16.0586 36.8431 16.0586V16.0593ZM27.5016 18.513C22.5386 18.513 18.5146 22.5369 18.5146 27.5C18.5146 32.4631 22.5386 36.4851 27.5016 36.4851C32.4648 36.4851 36.4873 32.4631 36.4873 27.5C36.4873 22.5371 32.4644 18.513 27.5012 18.513H27.5016ZM27.5016 21.6666C30.7232 21.6666 33.335 24.2781 33.335 27.5C33.335 30.7215 30.7232 33.3334 27.5016 33.3334C24.28 33.3334 21.6683 30.7215 21.6683 27.5C21.6683 24.2781 24.2798 21.6666 27.5016 21.6666Z"
+                              fill="white"
+                            />
+                          </g>
+                          <defs>
+                            <radialGradient
+                              id="paint0_radial_307_215"
+                              cx="0"
+                              cy="0"
+                              r="1"
+                              gradientUnits="userSpaceOnUse"
+                              gradientTransform="translate(14.6094 59.2361) rotate(-90) scale(54.5091 50.6978)"
+                            >
+                              <stop stop-color="#FFDD55" />
+                              <stop offset="0.1" stop-color="#FFDD55" />
+                              <stop offset="0.5" stop-color="#FF543E" />
+                              <stop offset="1" stop-color="#C837AB" />
+                            </radialGradient>
+                            <radialGradient
+                              id="paint1_radial_307_215"
+                              cx="0"
+                              cy="0"
+                              r="1"
+                              gradientUnits="userSpaceOnUse"
+                              gradientTransform="translate(14.6094 59.2361) rotate(-90) scale(54.5091 50.6978)"
+                            >
+                              <stop stop-color="#FFDD55" />
+                              <stop offset="0.1" stop-color="#FFDD55" />
+                              <stop offset="0.5" stop-color="#FF543E" />
+                              <stop offset="1" stop-color="#C837AB" />
+                            </radialGradient>
+                            <radialGradient
+                              id="paint2_radial_307_215"
+                              cx="0"
+                              cy="0"
+                              r="1"
+                              gradientUnits="userSpaceOnUse"
+                              gradientTransform="translate(-9.21271 3.96193) rotate(78.681) scale(24.3659 100.437)"
+                            >
+                              <stop stop-color="#3771C8" />
+                              <stop offset="0.128" stop-color="#3771C8" />
+                              <stop
+                                offset="1"
+                                stop-color="#6600FF"
+                                stop-opacity="0"
+                              />
+                            </radialGradient>
+                            <clipPath id="clip0_307_215">
+                              <rect
+                                width="55"
+                                height="55"
+                                rx="27.5"
+                                fill="white"
+                              />
+                            </clipPath>
+                          </defs></svg
+                      ></a>
+
+                      <a href="https://www.instagram.com/"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="55"
+                          height="55"
+                          viewBox="0 0 55 55"
+                          fill="none"
+                        >
+                          <circle cx="27.5" cy="27.5" r="27.5" fill="#3D5A98" />
+                          <path
+                            d="M30.3654 45.6915V28.9547H35.9821L36.822 22.4324H30.3654V18.2692C30.3654 16.3812 30.8913 15.092 33.5974 15.092H37.0521V9.24894C35.3792 9.07491 33.698 8.99201 32.0161 9.00061C27.0422 9.00061 23.6167 12.0317 23.6167 17.6228V22.4324H18V28.9547H23.6167V45.6915H30.3654Z"
+                            fill="white"
+                          /></svg
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="social-card color-primary">
+                <div class="img">
+                  <img
+                    class="lazy entered loaded"
+                    alt="slotomania-img"
+                    width="457"
+                    height="387"
+                    src="./images/social/4.png"
+                  />
+                </div>
+
+                <div class="text">
+                  <div class="text-wrap">
+                    <p>MORE THAN</p>
+                    <h3>60%</h3>
+                    <p>
+                      OF PLAYERS<br />
+                      ARE IN SLOTOCLANS
+                    </p>
+                    <a href="#" target="" class="card-btn btn"> JOIN NOW </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="socila-list-cards card-list-anim mobile">
+            <!-- Card -->
+            <li>
+              <div class="color-primary social-card">
+                <div class="img-wrapper">
+                  <img
+                    class="lazy entered loaded"
+                    alt="A pig in a space suit holding a purple Facebook flag"
+                    src="./images/social/1.png"
+                  />
+                </div>
+
+                <div class="mobile-text">
+                  <div class="mobile-text-wrap">
+                    <p>OVER</p>
+                    <h3>13M</h3>
+                    <p>FANS ON FACEBOOK</p>
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      class="card-btn btn"
+                    >
+                      JOIN NOW
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="social-card color-primary">
+                <div class="img-wrapper">
+                  <img
+                    class="lazy entered loaded"
+                    alt="Flying spaceship"
+                    data-ll-status="loaded"
+                    src="./images/social/2.png"
+                  />
+                </div>
+
+                <div class="mobile-text">
+                  <div class="mobile-text-wrap">
+                    <h3>+700k</h3>
+
+                    <p>MEMBERS IN THE BIGGEST ONLINE SLOT COMMUNITY</p>
+
+                    <a
+                      href="https://www.facebook.com/groups/286304708187534"
+                      target="_blank"
+                      class="card-btn btn"
+                    >
+                      Join Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="social-card color-primary">
+                <div class="img-wrapper">
+                  <img
+                    class="lazy entered loaded"
+                    alt="Social Media space craft"
+                    src="./images/social/3.png"
+                  />
+                </div>
+
+                <div class="mobile-text">
+                  <div class="mobile-text-wrap">
+                    <h3>3</h3>
+                    <p>
+                      CHANNELS<br />
+                      ON YOUTUBE, FACEBOOK<br />
+                     INSTAGRAM <br />
+                      <br />
+                    </p>
+
+                    <div
+                      class="social-links-wrapper flex justify-center gap-[15px]"
+                    >
+                      <a href="https://www.facebook.com/slotomania"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="55"
+                          height="55"
+                          viewBox="0 0 55 55"
+                          fill="none"
+                        >
+                          <rect width="55" height="55" rx="27.5" fill="white" />
+                          <path
+                            d="M46.5377 18.3218C46.3117 17.4865 45.8708 16.7249 45.2589 16.113C44.647 15.5011 43.8855 15.0601 43.0501 14.834C39.992 14 27.6841 14 27.6841 14C27.6841 14 15.3755 14.0252 12.3174 14.8593C11.482 15.0854 10.7205 15.5263 10.1086 16.1383C9.49668 16.7503 9.05577 17.5118 8.82975 18.3472C7.90474 23.7809 7.54591 32.0606 8.85515 37.2769C9.08119 38.1123 9.52211 38.8738 10.134 39.4857C10.7459 40.0977 11.5074 40.5386 12.3428 40.7647C15.4009 41.5987 27.7091 41.5987 27.7091 41.5987C27.7091 41.5987 40.0172 41.5987 43.0752 40.7647C43.9106 40.5386 44.6721 40.0977 45.2841 39.4858C45.896 38.8738 46.3369 38.1123 46.563 37.2769C47.5386 31.8355 47.8393 23.5609 46.5377 18.3218Z"
+                            fill="#FF0000"
+                          />
+                          <path
+                            d="M23.7667 33.7137L33.977 27.7997L23.7667 21.8857V33.7137Z"
+                            fill="white"
+                          /></svg
+                      ></a>
+
+                      <a href="https://www.youtube.com/c/Slotomania_FreeSlots">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="55"
+                          height="55"
+                          viewBox="0 0 55 55"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_307_215)">
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="black"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="url(#paint0_radial_307_215)"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="black"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="url(#paint1_radial_307_215)"
+                            />
+                            <rect
+                              width="55"
+                              height="55"
+                              rx="8.9429"
+                              fill="url(#paint2_radial_307_215)"
+                            />
+                            <path
+                              d="M27.5016 10C22.7489 10 22.1524 10.0208 20.2858 10.1057C18.4228 10.1911 17.151 10.486 16.0384 10.9187C14.8872 11.3657 13.9109 11.9637 12.9383 12.9366C11.9647 13.9095 11.3668 14.8858 10.9184 16.0364C10.4844 17.1494 10.1892 18.4216 10.1053 20.2838C10.0219 22.1505 10 22.7472 10 27.5C10 32.2528 10.021 32.8474 10.1057 34.714C10.1915 36.577 10.4863 37.8487 10.9187 38.9613C11.3661 40.1125 11.964 41.0888 12.937 42.0614C13.9095 43.0349 14.8858 43.6343 16.0361 44.0813C17.1496 44.514 18.4215 44.8089 20.2842 44.8943C22.1509 44.9792 22.747 45 27.4995 45C32.2526 45 32.8473 44.9792 34.7139 44.8943C36.5769 44.8089 37.85 44.514 38.9635 44.0813C40.1142 43.6343 41.0891 43.0349 42.0614 42.0614C43.0349 41.0888 43.6327 40.1125 44.0812 38.9619C44.5114 37.8487 44.8068 36.5766 44.8943 34.7143C44.9781 32.8478 45 32.2528 45 27.5C45 22.7472 44.9781 22.1508 44.8943 20.2841C44.8068 18.4211 44.5114 17.1496 44.0812 16.0369C43.6327 14.8858 43.0349 13.9095 42.0614 12.9366C41.088 11.9633 40.1145 11.3653 38.9625 10.9189C37.8469 10.486 36.5744 10.1909 34.7114 10.1057C32.8447 10.0208 32.2504 10 27.4961 10H27.5016ZM25.9317 13.1536C26.3977 13.1529 26.9176 13.1536 27.5016 13.1536C32.1742 13.1536 32.7279 13.1704 34.5731 13.2543C36.2794 13.3323 37.2055 13.6174 37.8224 13.857C38.6391 14.1741 39.2213 14.5533 39.8335 15.1659C40.446 15.7784 40.825 16.3617 41.143 17.1784C41.3826 17.7944 41.668 18.7205 41.7457 20.4267C41.8295 22.2716 41.8477 22.8256 41.8477 27.496C41.8477 32.1663 41.8295 32.7205 41.7457 34.5652C41.6677 36.2714 41.3826 37.1975 41.143 37.8137C40.8259 38.6304 40.446 39.2119 39.8335 39.8241C39.221 40.4366 38.6395 40.8156 37.8224 41.1329C37.2062 41.3735 36.2794 41.6579 34.5731 41.7359C32.7283 41.8198 32.1742 41.838 27.5016 41.838C22.8287 41.838 22.2748 41.8198 20.4302 41.7359C18.7239 41.6572 17.7978 41.3721 17.1804 41.1325C16.3639 40.8153 15.7804 40.4362 15.1679 39.8237C14.5554 39.2112 14.1764 38.6294 13.8584 37.8123C13.6188 37.1961 13.3334 36.27 13.2557 34.5638C13.1719 32.719 13.1551 32.1649 13.1551 27.4916C13.1551 22.8183 13.1719 22.2672 13.2557 20.4224C13.3338 18.7161 13.6188 17.79 13.8584 17.1732C14.1757 16.3565 14.5554 15.7732 15.1681 15.1607C15.7808 14.5482 16.3639 14.169 17.1806 13.8512C17.7975 13.6106 18.7239 13.3262 20.4302 13.2478C22.0445 13.1748 22.6702 13.1529 25.9317 13.1493V13.1536ZM36.8431 16.0593C35.6837 16.0593 34.7431 16.9991 34.7431 18.1586C34.7431 19.318 35.6837 20.2586 36.8431 20.2586C38.0025 20.2586 38.9431 19.318 38.9431 18.1586C38.9431 16.9992 38.0025 16.0586 36.8431 16.0586V16.0593ZM27.5016 18.513C22.5386 18.513 18.5146 22.5369 18.5146 27.5C18.5146 32.4631 22.5386 36.4851 27.5016 36.4851C32.4648 36.4851 36.4873 32.4631 36.4873 27.5C36.4873 22.5371 32.4644 18.513 27.5012 18.513H27.5016ZM27.5016 21.6666C30.7232 21.6666 33.335 24.2781 33.335 27.5C33.335 30.7215 30.7232 33.3334 27.5016 33.3334C24.28 33.3334 21.6683 30.7215 21.6683 27.5C21.6683 24.2781 24.2798 21.6666 27.5016 21.6666Z"
+                              fill="white"
+                            />
+                          </g>
+                          <defs>
+                            <radialGradient
+                              id="paint0_radial_307_215"
+                              cx="0"
+                              cy="0"
+                              r="1"
+                              gradientUnits="userSpaceOnUse"
+                              gradientTransform="translate(14.6094 59.2361) rotate(-90) scale(54.5091 50.6978)"
+                            >
+                              <stop stop-color="#FFDD55" />
+                              <stop offset="0.1" stop-color="#FFDD55" />
+                              <stop offset="0.5" stop-color="#FF543E" />
+                              <stop offset="1" stop-color="#C837AB" />
+                            </radialGradient>
+                            <radialGradient
+                              id="paint1_radial_307_215"
+                              cx="0"
+                              cy="0"
+                              r="1"
+                              gradientUnits="userSpaceOnUse"
+                              gradientTransform="translate(14.6094 59.2361) rotate(-90) scale(54.5091 50.6978)"
+                            >
+                              <stop stop-color="#FFDD55" />
+                              <stop offset="0.1" stop-color="#FFDD55" />
+                              <stop offset="0.5" stop-color="#FF543E" />
+                              <stop offset="1" stop-color="#C837AB" />
+                            </radialGradient>
+                            <radialGradient
+                              id="paint2_radial_307_215"
+                              cx="0"
+                              cy="0"
+                              r="1"
+                              gradientUnits="userSpaceOnUse"
+                              gradientTransform="translate(-9.21271 3.96193) rotate(78.681) scale(24.3659 100.437)"
+                            >
+                              <stop stop-color="#3771C8" />
+                              <stop offset="0.128" stop-color="#3771C8" />
+                              <stop
+                                offset="1"
+                                stop-color="#6600FF"
+                                stop-opacity="0"
+                              />
+                            </radialGradient>
+                            <clipPath id="clip0_307_215">
+                              <rect
+                                width="55"
+                                height="55"
+                                rx="27.5"
+                                fill="white"
+                              />
+                            </clipPath>
+                          </defs></svg
+                      ></a>
+
+                      <a href="https://www.instagram.com/"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="55"
+                          height="55"
+                          viewBox="0 0 55 55"
+                          fill="none"
+                        >
+                          <circle cx="27.5" cy="27.5" r="27.5" fill="#3D5A98" />
+                          <path
+                            d="M30.3654 45.6915V28.9547H35.9821L36.822 22.4324H30.3654V18.2692C30.3654 16.3812 30.8913 15.092 33.5974 15.092H37.0521V9.24894C35.3792 9.07491 33.698 8.99201 32.0161 9.00061C27.0422 9.00061 23.6167 12.0317 23.6167 17.6228V22.4324H18V28.9547H23.6167V45.6915H30.3654Z"
+                            fill="white"
+                          /></svg
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="social-card color-primary">
+                <div class="img-wrapper">
+                  <img
+                    class="lazy entered loaded"
+                    alt="slotomania-img"
+                    width="457"
+                    height="387"
+                    src="./images/social/4.png"
+                  />
+                </div>
+
+                <div class="mobile-text">
+                  <div class="mobile-text-wrap">
+                    <p>MORE THAN</p>
+                    <h3>60%</h3>
+                    <p>
+                      OF PLAYERS<br />
+                      ARE IN SLOTOCLANS
+                    </p>
+                    <a href="#" target="" class="card-btn btn"> JOIN NOW </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social-decor flex justify-between">
+          <div class="img">
+            <picture>
+              <img
+                src="./images/social/decor-l.png"
+                alt="freeslots-img"
+                width="583px"
+                height="629px"
+              />
+            </picture>
+          </div>
+          <div class="img">
+            <picture>
+              <img
+                src="./images/social/decor-r.png"
+                alt="freeslots-img"
+                width="562px"
+                height="455.5px"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="games">
+        <div class="container-slider">
+          <h2 class="color-primary h2-title">top free slot games online</h2>
+          <div class="games-carousel">
+            <div class="splide">
+              <div class="splide__track">
+                <ul class="splide__list">
+
+                  <li class="splide__slide">
+                    <div class="relative h-full">
+                      <div class="bg-img">
+                        <picture>
+                          <img
+                            class="lazy entered loaded"
+                            data-src="./images/games/1/bg.svg"
+                            alt="slotomania-img"
+                            src="./images/games/1/bg.svg"
+                          />
+                        </picture>
+                      </div>
+                      <div class="img">
+                        <img
+                          class="lazy entered loaded"
+                          alt="Arctic The Dog House"
+                          srcset="./images/games/1/logo.svg"
+                        />
+                      </div>
+                      <div class="logo">
+                        <img
+                          class="lazy entered loaded"
+                          alt="The Dog"
+                          srcset="./images/games/1/hero.svg"
+                        />
+                      </div>
+                      <div class="text">
+                        <h3>Arctic Tiger Jr.</h3>
+
+                        <div>
+                          <p>
+                            <span style="font-weight: 400"
+                              >If you love the Slotomania crowd favorite game
+                              Arctic Tiger, you’ll love this cute sequel! This
+                              is yet another addition to our Junior Series game
+                              selection, along with Mighty Silver Jr. and Silver
+                              Lion Jr. Spin an adventure with two new ways to
+                              win Free Spins and unlock a new Free Spins
+                              Feature!</span
+                            >
+                          </p>
+                        </div>
+
+                        <a
+                          href=""
+                          target=""
+                          class="play-now-btn ga-push"
+                          data-event="cta_click"
+                          data-parameter="click_text"
+                          data-parameter-value="play now"
+                          data-component="hero"
+                          data-title="Arctic Tiger Jr."
+                          data-context="If you love the Slotomania crowd favorite game Arctic Tiger, you’ll love this cute sequel! This is yet another addition to our Junior Series game selection, along with Mighty Silver Jr. and Silver Lion Jr. Spin an adventure with two new ways to win Free Spins and unlock a new Free Spins Feature!
+"
+                        >
+                          <img
+                            class="lazy entered loaded"
+                            alt="Button The Dog House"
+                            src="https://www.slotomania.com/wp-content/uploads/2022/06/Play_now_Button-2.png"
+                          />
+
+                          <span>PLAY NOW</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="relative h-full">
+                      <div class="bg-img">
+                        <picture>
+                          <img
+                            class="lazy entered loaded"
+                            data-src="./images/games/1/bg.svg"
+                            alt="slotomania-img"
+                            src="./images/games/1/bg.svg"
+                          />
+                        </picture>
+                      </div>
+                      <div class="img">
+                        <img
+                          class="lazy entered loaded"
+                          alt="Arctic The Dog House"
+                          srcset="./images/games/1/logo.svg"
+                        />
+                      </div>
+                      <div class="logo">
+                        <img
+                          class="lazy entered loaded"
+                          alt="The Dog"
+                          srcset="./images/games/1/hero.svg"
+                        />
+                      </div>
+                      <div class="text">
+                        <h3>Arctic Tiger Jr.</h3>
+
+                        <div>
+                          <p>
+                            <span style="font-weight: 400"
+                              >If you love the Slotomania crowd favorite game
+                              Arctic Tiger, you’ll love this cute sequel! This
+                              is yet another addition to our Junior Series game
+                              selection, along with Mighty Silver Jr. and Silver
+                              Lion Jr. Spin an adventure with two new ways to
+                              win Free Spins and unlock a new Free Spins
+                              Feature!</span
+                            >
+                          </p>
+                        </div>
+
+                        <a
+                          href=""
+                          target=""
+                          class="play-now-btn ga-push"
+                          data-event="cta_click"
+                          data-parameter="click_text"
+                          data-parameter-value="play now"
+                          data-component="hero"
+                          data-title="Arctic Tiger Jr."
+                          data-context="If you love the Slotomania crowd favorite game Arctic Tiger, you’ll love this cute sequel! This is yet another addition to our Junior Series game selection, along with Mighty Silver Jr. and Silver Lion Jr. Spin an adventure with two new ways to win Free Spins and unlock a new Free Spins Feature!
+"
+                        >
+                          <img
+                            class="lazy entered loaded"
+                            alt="Button The Dog House"
+                            src="https://www.slotomania.com/wp-content/uploads/2022/06/Play_now_Button-2.png"
+                          />
+
+                          <span>PLAY NOW</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="relative h-full">
+                      <div class="bg-img">
+                        <picture>
+                          <img
+                            class="lazy entered loaded"
+                            data-src="./images/games/1/bg.svg"
+                            alt="slotomania-img"
+                            src="./images/games/1/bg.svg"
+                          />
+                        </picture>
+                      </div>
+                      <div class="img">
+                        <img
+                          class="lazy entered loaded"
+                          alt="Arctic The Dog House"
+                          srcset="./images/games/1/logo.svg"
+                        />
+                      </div>
+                      <div class="logo">
+                        <img
+                          class="lazy entered loaded"
+                          alt="The Dog"
+                          srcset="./images/games/1/hero.svg"
+                        />
+                      </div>
+
+                      <div class="text">
+                        <h3>Arctic Tiger Jr.</h3>
+
+                        <div>
+                          <p>
+                            <span style="font-weight: 400"
+                              >If you love the Slotomania crowd favorite game
+                              Arctic Tiger, you’ll love this cute sequel! This
+                              is yet another addition to our Junior Series game
+                              selection, along with Mighty Silver Jr. and Silver
+                              Lion Jr. Spin an adventure with two new ways to
+                              win Free Spins and unlock a new Free Spins
+                              Feature!</span
+                            >
+                          </p>
+                        </div>
+
+                        <a
+                          href=""
+                          target=""
+                          class="play-now-btn ga-push"
+                          data-event="cta_click"
+                          data-parameter="click_text"
+                          data-parameter-value="play now"
+                          data-component="hero"
+                          data-title="Arctic Tiger Jr."
+                          data-context="If you love the Slotomania crowd favorite game Arctic Tiger, you’ll love this cute sequel! This is yet another addition to our Junior Series game selection, along with Mighty Silver Jr. and Silver Lion Jr. Spin an adventure with two new ways to win Free Spins and unlock a new Free Spins Feature!
+"
+                        >
+                          <img
+                            class="lazy entered loaded"
+                            alt="Button The Dog House"
+                            src="https://www.slotomania.com/wp-content/uploads/2022/06/Play_now_Button-2.png"
+                          />
+
+                          <span>PLAY NOW</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="relative h-full">
+                      <div class="bg-img">
+                        <picture>
+                          <img
+                            class="lazy entered loaded"
+                            data-src="./images/games/1/bg.svg"
+                            alt="slotomania-img"
+                            src="./images/games/1/bg.svg"
+                          />
+                        </picture>
+                      </div>
+                      <div class="img">
+                        <img
+                          class="lazy entered loaded"
+                          alt="Arctic The Dog House"
+                          srcset="./images/games/1/logo.svg"
+                        />
+                      </div>
+                      <div class="logo">
+                        <img
+                          class="lazy entered loaded"
+                          alt="The Dog"
+                          srcset="./images/games/1/hero.svg"
+                        />
+                      </div>
+
+                      <div class="text">
+                        <h3>Arctic Tiger Jr.</h3>
+
+                        <div>
+                          <p>
+                            <span style="font-weight: 400"
+                              >If you love the Slotomania crowd favorite game
+                              Arctic Tiger, you’ll love this cute sequel! This
+                              is yet another addition to our Junior Series game
+                              selection, along with Mighty Silver Jr. and Silver
+                              Lion Jr. Spin an adventure with two new ways to
+                              win Free Spins and unlock a new Free Spins
+                              Feature!</span
+                            >
+                          </p>
+                        </div>
+
+                        <a
+                          href=""
+                          target=""
+                          class="play-now-btn ga-push"
+                          data-event="cta_click"
+                          data-parameter="click_text"
+                          data-parameter-value="play now"
+                          data-component="hero"
+                          data-title="Arctic Tiger Jr."
+                          data-context="If you love the Slotomania crowd favorite game Arctic Tiger, you’ll love this cute sequel! This is yet another addition to our Junior Series game selection, along with Mighty Silver Jr. and Silver Lion Jr. Spin an adventure with two new ways to win Free Spins and unlock a new Free Spins Feature!
+"
+                        >
+                          <img
+                            class="lazy entered loaded"
+                            alt="Button The Dog House"
+                            src="https://www.slotomania.com/wp-content/uploads/2022/06/Play_now_Button-2.png"
+                          />
+
+                          <span>PLAY NOW</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="relative h-full">
+                      <div class="bg-img">
+                        <picture>
+                          <img
+                            class="lazy entered loaded"
+                            data-src="./images/games/1/bg.svg"
+                            alt="slotomania-img"
+                            src="./images/games/1/bg.svg"
+                          />
+                        </picture>
+                      </div>
+                      <div class="img">
+                        <img
+                          class="lazy entered loaded"
+                          alt="Arctic The Dog House"
+                          srcset="./images/games/1/logo.svg"
+                        />
+                      </div>
+                      <div class="logo">
+                        <img
+                          class="lazy entered loaded"
+                          alt="The Dog"
+                          srcset="./images/games/1/hero.svg"
+                        />
+                      </div>
+
+                      <div class="text">
+                        <h3>Arctic Tiger Jr.</h3>
+
+                        <div>
+                          <p>
+                            <span style="font-weight: 400"
+                              >If you love the Slotomania crowd favorite game
+                              Arctic Tiger, you’ll love this cute sequel! This
+                              is yet another addition to our Junior Series game
+                              selection, along with Mighty Silver Jr. and Silver
+                              Lion Jr. Spin an adventure with two new ways to
+                              win Free Spins and unlock a new Free Spins
+                              Feature!</span
+                            >
+                          </p>
+                        </div>
+
+                        <a
+                          href=""
+                          target=""
+                          class="play-now-btn ga-push"
+                          data-event="cta_click"
+                          data-parameter="click_text"
+                          data-parameter-value="play now"
+                          data-component="hero"
+                          data-title="Arctic Tiger Jr."
+                          data-context="If you love the Slotomania crowd favorite game Arctic Tiger, you’ll love this cute sequel! This is yet another addition to our Junior Series game selection, along with Mighty Silver Jr. and Silver Lion Jr. Spin an adventure with two new ways to win Free Spins and unlock a new Free Spins Feature!
+"
+                        >
+                          <img
+                            class="lazy entered loaded"
+                            alt="Button The Dog House"
+                            src="https://www.slotomania.com/wp-content/uploads/2022/06/Play_now_Button-2.png"
+                          />
+
+                          <span>PLAY NOW</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Add the progress bar element -->
+              <div class="my-slider-progress">
+                <div class="my-slider-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1930 174"
+            fill="none"
+          >
+            <path
+              d="M1929.43 99.034V173.119H3.50098L0.000976562 0.0780067C6.15201 7.59922 11.0517 16.0619 14.512 25.141C22.839 19.541 33.437 16.284 44.866 15.273C77.142 12.416 117.403 28.465 123.688 52.687C126.56 63.746 119.204 60.907 137.809 59.26C172.166 56.222 203.371 65.254 230.609 78.417C245.755 85.8911 260.32 94.4878 274.183 104.135C289.083 92.503 310.642 85.913 333.69 83.874C372.751 80.421 408.459 92.48 444.017 101.658C449.171 102.991 454.335 104.302 459.509 105.59C496.929 114.932 544.186 95.15 582.366 102.447C584.918 102.938 587.46 103.417 590.012 103.896C592.734 104.399 595.456 104.903 598.178 105.409C601.081 105.942 603.986 106.47 606.895 106.992C609.995 107.553 613.11 108.102 616.212 108.645C619.525 109.229 622.841 109.803 626.16 110.368C627.871 110.66 629.593 110.952 631.304 111.238C634.967 111.857 638.63 112.465 642.293 113.061C642.296 113.063 642.299 113.064 642.303 113.064C642.306 113.064 642.31 113.063 642.313 113.061C644.325 113.394 646.346 113.715 648.358 114.043C652.411 114.697 656.465 115.338 660.518 115.965L666.803 116.929L673.759 117.981C678.382 118.67 683.013 119.348 687.65 120.014C691.363 120.551 695.076 121.075 698.789 121.586C702.502 122.097 706.219 122.603 709.938 123.105C711.799 123.356 713.661 123.604 715.522 123.847C721.107 124.58 726.698 125.297 732.295 125.997C734.086 126.225 735.878 126.447 737.669 126.663C739.611 126.903 741.562 127.136 743.504 127.37L747.457 127.843C748.848 128.007 750.239 128.176 751.64 128.334C757.625 129.035 763.613 129.715 769.604 130.373C773.427 130.794 777.25 131.205 781.073 131.606C783.034 131.816 785.001 132.02 786.973 132.219C788.694 132.4 790.426 132.575 792.157 132.745C792.828 132.815 793.498 132.885 794.169 132.945C796.05 133.138 797.942 133.325 799.824 133.506C807.37 134.248 814.923 134.957 822.482 135.633C954.727 147.475 1208.01 137.833 1275.06 141.948C1315.92 140.201 1357.26 140.581 1398.5 138.069C1409.91 137.369 1440.57 130.305 1451.12 130.305C1451.12 130.305 1456.61 138.069 1492.97 138.069C1517.73 138.069 1545.4 134.961 1569.12 133.541C1563.59 130.953 1556.93 131.601 1551.4 130.304C1583.38 119.957 1616.79 114.668 1650.41 114.629C1660.86 114.629 1661.51 114.489 1661.51 116.529C1661.51 123.662 1641.12 126.429 1687.32 126.429C1703.93 126.429 1786.96 121.212 1786.96 110.829L1929.43 99.034Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <section class="looking">
+        <div class="container relative z-10 flex justify-between items-start overflow-hidden">
+          <div class="text-group text-parallax-bottom-max">
+            <h2 class="color-primary h2-title">LOOKING FOR FREE COINS?</h2>
+            <p class="text color-primary text-anim-l">
+              You’re in luck! We provide you with over 15 amazing ways to get
+              them… EVERY DAY! <br />
+              Find links on our social media channels and posts, notifications,
+              emails, or even grab your daily in-game Store Bonus. Collecting
+              epic free Coins and freebies is super easy in Slotomania!
+            </p>
+            <a
+              href="https://www.slotomania.com/free-coins/"
+              target="_blank"
+              class="btn-outline color-primary"
+            >
+              CLAIM COINS
+            </a>
+          </div>
+
+          <div class="img relative img-parallax-top-looking">
+            <picture>
+              <img
+                src="./images/looking/hero.png"
+                alt="freeslots-img"
+              />
+            </picture>
+        </div>
+      </section>
+
+      <section class="free">
+        <div class="top-dark">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 173" fill="none">
+            <path d="M1929 74.0412V0H-6.48263L-10 172.939C-3.81845 165.422 1.10558 156.964 4.583 147.89C12.9513 153.487 23.6019 156.742 35.0876 157.753C67.5237 160.608 107.984 144.568 114.301 120.361C117.187 109.308 109.794 112.146 128.492 113.792C163.019 116.828 194.379 107.801 221.752 94.646C236.973 87.1763 251.611 78.5847 265.542 68.9432C280.516 80.5683 302.182 87.1544 325.345 89.1922C364.599 92.6431 400.485 80.5913 436.219 71.4187C441.399 70.0862 446.588 68.7763 451.788 67.489C489.394 58.1526 536.885 77.9229 575.254 70.6302C577.819 70.1395 580.374 69.6608 582.938 69.1821C585.674 68.6797 588.409 68.1756 591.145 67.6699C594.062 67.1369 596.982 66.6096 599.905 66.0879C603.021 65.5272 606.151 64.9785 609.268 64.4359C612.597 63.8522 615.93 63.2782 619.266 62.7139C620.985 62.422 622.716 62.1302 624.435 61.8444C628.116 61.2254 631.797 60.6181 635.479 60.0225C635.482 60.0208 635.485 60.0199 635.489 60.0199C635.492 60.0199 635.496 60.0208 635.499 60.0225C637.521 59.6897 639.552 59.3689 641.574 59.041C645.647 58.3874 649.721 57.7471 653.794 57.1202L660.11 56.1568L667.101 55.1054C671.747 54.4164 676.401 53.7392 681.061 53.0736C684.792 52.5366 688.523 52.0129 692.255 51.5025C695.987 50.9921 699.722 50.4861 703.459 49.9844C705.33 49.7332 707.201 49.486 709.071 49.2428C714.684 48.5099 720.302 47.7937 725.927 47.0941C727.728 46.8662 729.528 46.6444 731.328 46.4285C733.28 46.1886 735.24 45.9558 737.192 45.7219L741.165 45.2492C742.562 45.0853 743.96 44.9164 745.368 44.7585C751.383 44.0576 757.4 43.3783 763.422 42.7207C767.264 42.3003 771.106 41.8895 774.947 41.4884C776.918 41.2786 778.895 41.0743 780.877 40.8758C782.606 40.6949 784.347 40.52 786.086 40.3501C786.761 40.2801 787.434 40.2102 788.108 40.1502C789.999 39.9573 791.9 39.7705 793.791 39.5896C801.375 38.848 808.965 38.1394 816.562 37.4638C949.463 25.6288 1204 35.2651 1271.39 31.1526C1312.45 32.8985 1354 32.5188 1395.44 35.0293C1406.9 35.7289 1437.71 42.7887 1448.32 42.7887C1448.32 42.7887 1453.83 35.0293 1490.38 35.0293C1515.26 35.0293 1543.07 38.1354 1566.91 39.5546C1561.35 42.1411 1554.66 41.4934 1549.1 42.7897C1581.24 53.1306 1614.81 58.4162 1648.59 58.4554C1659.1 58.4554 1659.75 58.5953 1659.75 56.5565C1659.75 49.4277 1639.26 46.6624 1685.69 46.6624C1702.38 46.6624 1785.82 51.8763 1785.82 62.2531L1929 74.0412Z" fill="black"/>
+          </svg>
+        </div>
+
+        <div class="container">
+          <h2 class="h2-title color-regular text-center">
+            LOOKING FOR FREE COINS?
+          </h2>
+          <div class="faq-group">
+            <div class="collapse collapse-arrow" v-for="(faq, index) in faqs" :key="index">
+              <input type="checkbox" class="peer" v-model="faq.isOpen" />
+              <div class="collapse-title" @click="toggleFaq(index)">
+                <h6 class="flex items-center gap-2">
+                  <img
+                    v-if="!faq.isOpen"
+                    src="https://www.slotomania.com/wp-content/themes/master-theme/img/HOME-PAGE/SLOTOMANIA-FAQ/faq_off.png"
+                    alt="slotomania-img"
+                    width="20"
+                    height="20"
+                  />
+                  <img
+                    v-if="faq.isOpen"
+                    src="https://www.slotomania.com/wp-content/themes/master-theme/img/HOME-PAGE/SLOTOMANIA-FAQ/faq_on.png"
+                    alt="slotomania-img"
+                    width="20"
+                    height="20"
+                  />
+                  {{ faq.question }}
+                </h6>
+              </div>
+              <div class="collapse-content pl-[45px]">
+                {{ faq.answer }}
+              </div>
+            </div>
+          </div>
+          <div class="ready-footer flex items-center overflow-hidden">
+            <div class="img flex-1 hero-anim relative">
+              <picture>
+                <img src="./images/free/hero.png" alt="">
+              </picture>
+            </div>
+            <div class="text-group flex flex-col justify-start items-start justify-center flex-1">
+              <span class="title-text color-regular">ARE YOU READY
+              </span>
+              <h2 class="color-regular h1-title">
+                FOR FREE SLOTS?
+              </h2>
+              <a
+              href=""
+              target=""
+              class="ga-push play-now-btn hero-button"
+              data-gtm="play_now"
+            >
+              <img
+                width="300"
+                height="74"
+                src="https://www.slotomania.com/wp-content/uploads/2022/06/Play_now_Button-2.png"
+                class="attachment-medium size-medium"
+                alt='Green "Play Now" button'
+                decoding="async"
+                sizes="(max-width: 300px) 100vw, 300px"
+              />
+              <span>Play Now</span>
+            </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="img-wrapper">
+          <div class="build-decor-right img-parallax-build-decor-right">
+            <picture>
+              <img src="./images/free/right-decor.png" alt="">
+            </picture>
+          </div>
+      
+          <div class="build-decor-left build-decor-left-anim">
+            <picture>
+              <img src="./images/free/left-decore.png" alt="">
+            </picture>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+
+    <!-- scripts -->
+    <script src="./src/app.js"></script>
+    <script src="./src/animations.js"></script>
+    <script src="./src/splide.js"></script>
+  </body>
+</html>

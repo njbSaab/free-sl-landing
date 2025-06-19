@@ -1,0 +1,22 @@
+{
+    "name": "my-html-project",
+    "version": "1.0.0",
+    "description": "Простой проект для вёрстки",
+    "scripts": {
+      "build:css": "sass src/style.scss dist/temp.css && postcss dist/temp.css -o dist/style.css && del dist/temp.css",
+      "watch:css": "chokidar \"src/**/*.scss\" -c \"npm run build:css\"",
+      "serve": "http-server -c-1 -p 3000",
+      "livereload": "livereload dist index.html",
+      "dev": "concurrently \"npm run watch:css\" \"npm run serve\" \"npm run livereload\""
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.21",
+      "chokidar-cli": "^3.0.0",
+      "concurrently": "^9.1.2",
+      "http-server": "^14.1.1",
+      "livereload": "^0.9.3",
+      "postcss": "^8.5.6",
+      "sass": "^1.89.2",
+      "tailwindcss": "^4.1.10"
+    }
+  }
