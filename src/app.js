@@ -4,33 +4,33 @@ const app = createApp({
   setup() {
     const faqs = ref([
       {
-        question: "Can I play slots for free on Slotomania?",
+        question: "Can you play slots for free on FREE SLOTS?",
         answer:
-          "Absolutely! Slotomania has a huge variety of free slot games for you to spin and enjoy! Whether you’re looking for classic slots or video slots, they are all free to play.",
+          "Yes, it's completely free. Once you register, you'll have access to all the slot machines—no payments, no coins, and no hidden terms.",
         isOpen: false,
       },
       {
-        question: "How do I pick a good slot machine?",
+        question: "How to choose a good slot machine?",
         answer:
-          "Rest assured that we’re committed to making all of our slot games FUNtastic! They are all unique in their own way so picking the best one for you can be tricky. To better understand each slot machine, click on the “Pay Table” option inside the menu in every slot. Once you’ve found the slot machine you like best, get to spinning and winning!",
+          "Try out a few slots with different themes and mechanics. Each one has its own set of bonus rounds, wilds, and scatters—the best way to find the slot that’s right for you is to simply play them and compare them.",
         isOpen: false,
       },
       {
-        question: "Can I play slots for free on Slotomania?",
+        question: "What is the most popular free slot on FREE SLOTS?",
         answer:
-          "Absolutely! Slotomania has a huge variety of free slot games for you to spin and enjoy! Whether you’re looking for classic slots or video slots, they are all free to play.",
+          "We regularly add new slot machines, and every player has their own favorites. Take a look at our catalog—it features the platform's most exciting and engaging slots.",
         isOpen: false,
       },
       {
-        question: "How do I pick a good slot machine?",
+        question: "Where can you play free slots?",
         answer:
-          "Rest assured that we’re committed to making all of our slot games FUNtastic! They are all unique in their own way so picking the best one for you can be tricky. To better understand each slot machine, click on the “Pay Table” option inside the menu in every slot. Once you’ve found the slot machine you like best, get to spinning and winning!",
+          "Right in your browser—on your computer, tablet, or phone. No downloads required; you can start playing right after you sign up.",
         isOpen: false,
       },
       {
-        question: "Is there a trick to winning slots?",
+        question: "Is there a way to guarantee a win at slots?",
         answer:
-          "As under-whelming as it may sound, Slotomania’s free online slot games use a random number generator – so everything just boils down to luck! Spinning slots is a game of possibilities. However, having a broad knowledge about different free casino slot games and their rules will certainly help you understand your chances better. Just hit the SPIN button and find out the answer to the burning question: What Will Today Spin?",
+          "The outcome of each spin is random, and that's what makes it exciting. FREE SLOTS is an entertainment platform with no real-money bets or prizes, so play for fun, not for guaranteed results.",
         isOpen: false,
       },
     ]);

@@ -1,0 +1,19 @@
+{
+  "name": "pre-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webp": "node webp-all.js",
+    "webp:dry": "node webp-all.js ./ --dry-run",
+    "compress": "node compress.js",
+    "compress:out": "node compress.js ./1-t/images ./1-t/images-webp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

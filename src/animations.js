@@ -101,23 +101,25 @@ gsap.fromTo(
   }
 );
 
-// Анимации для левого и правого изображений без классов
-gsap.fromTo(
-  ".build-decor-left-anim",
-  {
-    xPercent: -40, // Смещено влево
-  },
-  {
-    xPercent: 0,
-    ease: "none",
-    scrollTrigger: {
-      trigger: ".build-decor-left-anim",
-      start: "top 100%",
-      end: "top 50%",
-      scrub: true,
+// Левый декор футера: поднимается снизу вверх, не опускаясь ниже естественного положения
+gsap.utils.toArray(".build-decor-left-anim").forEach((img) => {
+  gsap.fromTo(
+    img,
+    {
+      bottom: "-50%", // Стартует спрятанным вниз
     },
-  }
-);
+    {
+      bottom: "0%", // Поднимается навстречу, но не выше естественного положения
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".free",
+        start: "top 50%", // Начинает подъём, когда секция дошла до половины экрана
+        end: "bottom bottom", // ...и доезжает ровно к низу страницы
+        scrub: true,
+      },
+    }
+  );
+});
 gsap.utils.toArray(".hero-anim").forEach((img) => {
   gsap.fromTo(
     img,
@@ -130,8 +132,8 @@ gsap.utils.toArray(".hero-anim").forEach((img) => {
       scrollTrigger: {
         trigger: img, // Триггер — сам элемент
         start: "top 100%",
-        end: "top 50%",
-        scrub: true, // Плавная анимация, привязанная к скроллу
+        end: "top 40%",
+        scrub: 1.5, // Плавная анимация с инерцией, привязанная к скроллу
       },
     }
   );
@@ -263,15 +265,15 @@ gsap.utils.toArray(".img-parallax-build-decor-right").forEach((img) => {
   gsap.fromTo(
     img,
     {
-      top: "-5vw", // Начальная позиция: -15% от низа
+      top: "0vw", // Стартует не выше нуля — в минус не уходит
     },
     {
-      top: "10vw", // Конечная позиция: 0% (естественное положение)
+      top: "10vw", // Съезжает вниз, сопровождая скролл
       ease: "none",
       scrollTrigger: {
-        trigger: ".looking",
-        start: "top bottom",
-        end: "bottom top",
+        trigger: ".free",
+        start: "top bottom", // Сопровождает с появления секции...
+        end: "bottom bottom", // ...до самого низа страницы
         scrub: true,
       },
     }
@@ -338,13 +340,13 @@ gsap.utils.toArray(".img-parallax-about").forEach((img) => {
       yPercent: -15,
     },
     {
-      yPercent: 5,
-      ease: "none",
+      yPercent: 30, // Уезжает в самый низ, «провожая» при скролле
+      ease: "power1.in", // Медленный старт, разгон к концу — без стыка фаз
       scrollTrigger: {
         trigger: img,
-        start: "top bottom",
-        end: "bottom top",
-        scrub: true,
+        start: "top center", // Начинает, когда верх картинки на середине экрана
+        end: "center top", // Заканчивает, когда центр картинки уходит за верх
+        scrub: 1.5, // Плавное «догоняющее» движение с инерцией
       },
     }
   );
